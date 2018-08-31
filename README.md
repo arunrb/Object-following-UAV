@@ -5,14 +5,8 @@ Credits:
 	--pending
 
 Note: 
-	If familiar with OpenCV and parrot AR Drone 2, you can simply use source code from the main.cpp to make your changes and play around. If you would want to run the project as it is, you can install the necessay IDE and libraries and extract this project's zip file for the project and follow the instructions below.
+	If familiar with OpenCV and parrot AR Drone 2, you can simply use source code from the main.cpp to make your changes and play around.
 
-
-NOOBS - BEFORE YOU BUILD:
- - You should install Microsoft Visual Studio Community 2015.
-     To download VS, https://www.microsoft.com/en-us/download/details.aspx?id=48146
-
- - CV Drone supports VC++ 2015.
 
 LIBRARY DEPENDENCIES
   CV Drone uses following libraries.
@@ -21,19 +15,8 @@ LIBRARY DEPENDENCIES
   - FFmpeg 2.2.3 <LGPL v2.1 license>
     http://www.ffmpeg.org/
   
-GENERAL PROCEDURE TO RUN THE CODE:
+NOTE:
+ - This project was developed with Microsoft Visual Studio Community 2015.
+     To download VS, https://www.microsoft.com/en-us/download/details.aspx?id=48146
 
-	Without Drone ( for checking the workability of code) 
-
-1) Extract the Camshift_object_tracking.zip file in any directory
-2) Open .\camshift_object_tracking\build\vs2015\Camshift_object_tracking.sln
-3) Press Ctrl+Shift+B to build.
-4) Press F5 to run the program. 
-	
-	With drone connected
-
-1) Extract the Camshift_object_tracking.zip file in any directory
-2) Open .\camshift_object_tracking\build\vs2015\Camshift_object_tracking.sln
-3) Press Ctrl+Shift+B to build.
-4) connect the AR drone 2.0.
-5) Press F5 to run the program. 
+ - CV Drone supports VC++ 2015.
