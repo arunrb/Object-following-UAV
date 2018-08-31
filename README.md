@@ -1,5 +1,8 @@
 # Object-following-UAV, Fall 2016
-The Parrot AR.Drone 2 uses the onboard camera to track and follow the selected object in an indoor environment. The tracking is based on CAMSHIFT algorithm, implemented in C++ using the OpenCV library.
+The Parrot AR.Drone 2 uses the onboard camera to track and follow the selected object in an indoor environment. The tracking is based on CAMSHIFT algorithm, implemented in C++ using the OpenCV library. 
+
+Credits:
+<add references>
 
 NOOBS - BEFORE YOU BUILD:
  - You should install Microsoft Visual Studio Community 2015.
