@@ -2,7 +2,8 @@
 The Parrot AR.Drone 2 uses the onboard camera to track and follow the selected object in an indoor environment. The tracking is based on CAMSHIFT algorithm, implemented in C++ using the OpenCV library. 
 
 Credits:
-	--pending
+	Based on cvdrone by puku0x.
+	https://github.com/puku0x/cvdrone
 
 Note: 
 	If familiar with OpenCV and parrot AR Drone 2, you can simply use source code from the main.cpp to make your changes and play around.
