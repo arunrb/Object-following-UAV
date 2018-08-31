@@ -15,7 +15,7 @@ int vmin = 10, vmax = 256, smin = 30;  //default values, can be changed with the
 
 static void onMouse(int event, int x, int y, int, void*)
 {
-//	cout << "MOUSEEEE \n";  To check the flow of the code 
+//	cout << "MOUSE \n";  To check the flow of the code 
 	if (selectObject)
 	{
 		selection.x = MIN(x, origin.x);
